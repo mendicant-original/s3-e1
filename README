@@ -1,0 +1,67 @@
+-- RMU SESSION 3 PROBLEM 1
+
+If in doubt about how to submit, see SUBMISSION_GUIDELINES file.
+
+In this exercise, we'll be taking ordinary Ruby libraries and giving them nice
+web service APIs.  The goal will be to experiment a bit with building 
+web services and clients, as well as integrating with some third party software.
+
+This exercise is pretty open ended, but please follow the guidelines listed
+below.
+
+== GUIDELINES
+
+- You will be building two things: An HTTP based web service that interacts with
+  an open source Ruby library of your choosing, and a simple client to consume
+  your service.  Your client code should go in a folder called client/ and your
+  server code should be in a folder called server/
+
+- On the server side, you may use any web framework you'd like, but either
+  Sinatra or Rails 3 are recommended.
+
+- On the client side, you may use any HTTP client you'd like.  It's recommended
+  to take a look at the standard library open-uri, as well as the ruby gems
+  rest-client and httparty.
+
+- You may use any data serialization format you'd like, but JSON is preferred
+  over YAML and XML.  Not all services will require data serialization, of
+  course.
+
+- It's mostly up to you as to what your web service does, as long as it
+  integrates in a non-trivial way with some third party library. It could either
+  simply map remote calls to the underlying library's API, or do some
+  interesting that's built on top of the library you use.
+
+- Use idiomatic Ruby conventions as much as possible.  Throughout the session, 
+  writing code well is as important as meeting the requirements.  But don't be
+  afraid to ask for help, perfection is not expected in a first submission.
+
+- Try to pick a realistic project, one that someone might actually want to use.
+  Avoid contrived scenarios where possible.  Include a good example file that
+  demonstrates your client interacting with your server.
+
+- Avoid duplicating the work of other students.  Announce on the mailing list
+  what you're planning to build, and add a description to the notes section 
+  on the assignment's page in university-web.
+
+== EXAMPLES
+
+The following two projects meet the guidelines described above.
+
+- A Sinatra based web service that returns a nicely formatted PDF report when 
+  given some JSON data.
+
+- A Rails 3 web service that converts Markdown formatted text into HTML.
+
+Please come up with a project of your own, and if in doubt, just ask whether the
+idea is reasonable.
+
+== QUESTIONS?
+
+Hit up the mailing list or IRC.  RMU exercises are left deliberately open ended,
+and often benefit from some discussion before, during, and after you work on
+them.
+
+If you have little experience with web programming, please let me know and I'll
+collect some resources for you to get you up to speed.  Not a ton of knowledge
+is needed to work through this exercise.
